@@ -1,4 +1,4 @@
-# Contributing to EOSIO SDK for Swift ABIEOS Serialization Provider
+# Contributing to ARISEN SDK for Swift ABIRIX Serialization Provider
 
 Interested in contributing? That's awesome! Here are some guidelines to get started quickly and easily:
 
@@ -6,7 +6,7 @@ Interested in contributing? That's awesome! Here are some guidelines to get star
   - [Bug Reports](#bug-reports)
   - [Feature Requests](#feature-requests)
   - [Change Requests](#change-requests)
-- [Working on ABIEOS Serialization Provider](#working-on-abieos-serialization-provider)
+- [Working on ABIRIX Serialization Provider](#working-on-abiRIX-serialization-provider)
   - [Feature Branches](#feature-branches)
   - [Developing With Local Pods](#developing-with-local-pods)
   - [Submitting Pull Requests](#submitting-pull-requests)
@@ -18,7 +18,7 @@ Interested in contributing? That's awesome! Here are some guidelines to get star
 
 ## Reporting An Issue
 
-If you're about to raise an issue because you think you've found a problem with ABIEOS Serialization Provider, or you'd like to make a request for a new feature in the codebase, or any other reason… please read this first.
+If you're about to raise an issue because you think you've found a problem with ABIRIX Serialization Provider, or you'd like to make a request for a new feature in the codebase, or any other reason… please read this first.
 
 The GitHub issue tracker is the preferred channel for [bug reports](#bug-reports), [feature requests](#feature-requests), and [submitting pull requests](#submitting-pull-requests), but please respect the following restrictions:
 
@@ -53,12 +53,12 @@ Feature requests are welcome. Before you submit one be sure to have:
 
 ### Change Requests
 
-Change requests cover both architectural and functional changes to how ABIEOS Serialization Provider works. If you have an idea for a new or different dependency, a refactor, or an improvement to a feature, etc - please be sure to:
+Change requests cover both architectural and functional changes to how ABIRIX Serialization Provider works. If you have an idea for a new or different dependency, a refactor, or an improvement to a feature, etc - please be sure to:
 
 1. **Use the GitHub search** and check someone else didn't get there first
 1. Take a moment to think about the best way to make a case for, and explain what you're thinking. Are you sure this shouldn't really be a [bug report](#bug-reports) or a [feature request](#feature-requests)?  Is it really one idea or is it many? What's the context? What problem are you solving? Why is what you are suggesting better than what's already there?
 
-## Working on ABIEOS Serialization Provider
+## Working on ABIRIX Serialization Provider
 
 Code contributions are welcome and encouraged! If you are looking for a good place to start, check out the [good first issue](/../../labels/good%20first%20issue) label in GitHub issues.
 
@@ -69,11 +69,11 @@ Also, please follow these guidelines when submitting code:
 To get it out of the way:
 
 - **[develop](/../../tree/develop)** is the development branch. All work on the next release happens here so you should generally branch off `develop`. Do **NOT** use this branch for a production site.
-- **[master](/../../tree/master)** contains the latest release of ABIEOS Serialization Provider. This branch may be used in production. Do **NOT** use this branch to work on ABIEOS Serialization Provider's source.
+- **[master](/../../tree/master)** contains the latest release of ABIRIX Serialization Provider. This branch may be used in production. Do **NOT** use this branch to work on ABIRIX Serialization Provider's source.
 
 ### Developing With Local Pods
 
-By default, pods are installed from remote CocoaPods. If, however, you wish to develop locally and you'd like to integrate with locally-cloned versions of EOSIO SDK for Swift and/or other Providers, follow these instructions:
+By default, pods are installed from remote CocoaPods. If, however, you wish to develop locally and you'd like to integrate with locally-cloned versions of ARISEN SDK for Swift and/or other Providers, follow these instructions:
 
 1. Clone this and other repos into the same directory, as siblings of one another.
 1. Export the environment variable `USE_LOCAL_PODS` and set it to `'true'` and then run `pod install` in this and other projects as necessary or for only one repository you can combine the two with `USE_LOCAL_PODS='true' pod install`.  If `USE_LOCAL_PODS` is not set or is any other value than `'true'` then the pods will all be installed from remote CocoaPods.
@@ -87,11 +87,11 @@ Pull requests are awesome. If you're looking to raise a PR for something which d
 
 Never underestimate just how useful quality assurance is. If you're looking to get involved with the code base and don't know where to start, checking out and testing a pull request is one of the most useful things you could do.
 
-Essentially, [check out the latest develop branch](#working-on-abieos-serialization-provider), take it for a spin, and if you find anything odd, please follow the [bug report guidelines](#bug-reports) and let us know!
+Essentially, [check out the latest develop branch](#working-on-abirix-serialization-provider), take it for a spin, and if you find anything odd, please follow the [bug report guidelines](#bug-reports) and let us know!
 
 ### Code Style and Linting
 
-ABIEOS Serialization Provider leverages [SwiftLint](https://github.com/realm/SwiftLint) for linting and code format autocorrection. SwiftLint will be installed when you run `pod install`. Then linting warnings and errors will be flagged inline in Xcode when you Build.
+ABIRIX Serialization Provider leverages [SwiftLint](https://github.com/realm/SwiftLint) for linting and code format autocorrection. SwiftLint will be installed when you run `pod install`. Then linting warnings and errors will be flagged inline in Xcode when you Build.
 
 Please be sure to resolve any linting issues introduced by your contributions prior to requesting a review on your PR. You may also autocorrect formatting using the `swiftlint autocorrect --format --path Example.swift` command. (Requires a `brew install swiftlint` first.)
 

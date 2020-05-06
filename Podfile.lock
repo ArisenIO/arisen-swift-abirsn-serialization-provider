@@ -1,6 +1,6 @@
 PODS:
   - BigInt (5.0.0)
-  - EosioSwift (0.2.1):
+  - ArisenSwift (0.2.1):
     - BigInt (~> 5.0)
     - PromiseKit (~> 6.8)
   - PromiseKit (6.11.0):
@@ -15,19 +15,19 @@ PODS:
   - SwiftLint (0.32.0)
 
 DEPENDENCIES:
-  - EosioSwift (~> 0.2.1)
+  - ArisenSwift (~> 0.2.1)
   - SwiftLint
 
 SPEC REPOS:
   trunk:
     - BigInt
-    - EosioSwift
+    - ArisenSwift
     - PromiseKit
     - SwiftLint
 
 SPEC CHECKSUMS:
   BigInt: 74b4d88367b0e819d9f77393549226d36faeb0d8
-  EosioSwift: 21ca0d61e7928a982a64c82b623e7342d7dd86dc
+  ArisenSwift: 21ca0d61e7928a982a64c82b623e7342d7dd86dc
   PromiseKit: e4863d06976e7dee5e41c04fc7371c16b3600292
   SwiftLint: 009a898ef2a1c851f45e1b59349bf6ff2ddc990d
 

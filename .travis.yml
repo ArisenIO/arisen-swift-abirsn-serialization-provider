@@ -1,6 +1,6 @@
 language: swift
-xcode_workspace: EosioSwiftAbieosSerializationProvider.xcworkspace
-xcode_scheme: EosioSwiftAbieosTests
+xcode_workspace: ArisenSwiftAbirixSerializationProvider.xcworkspace
+xcode_scheme: ArisenSwiftAbirixTests
 osx_image: xcode10.2
 xcode_destination: platform=iOS Simulator,OS=12.0,name=iPhone X
 before_install:
